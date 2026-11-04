@@ -1,0 +1,16 @@
+{
+  "dataset": "BTS ATRI FMI 2024 direct Socrata download",
+  "rows": 98085,
+  "split_counts": {
+    "train": 68659,
+    "validation": 19617,
+    "test": 9809
+  },
+  "selected_model": "Distance + RF residual",
+  "target": "median_transit_hours",
+  "primary_tolerance_hours": 5,
+  "secondary_tolerance_hours": 12,
+  "distance_feature": "county representative-point straight-line km",
+  "calibrated_road_distance_used": false,
+  "limitation": "Annual county-pair median freight transit times; not individual package ETA"
+}

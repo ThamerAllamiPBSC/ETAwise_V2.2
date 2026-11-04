@@ -1,0 +1,24 @@
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore backup and original models
+model/a.joblib
+model/etawise_bts_model_backup.joblib
+model/etawise_bts_model_compressed.joblib
+
+# Ignore temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
